@@ -35,8 +35,42 @@
 
 // Övning 3
 
-function addTwoNumbers(num1 + num2) {
-  const sum = num1 + num2;
-  return sum;
+// let num1 = 5;
+// let num2 = 5;
+// let operator = "+";
+
+// function addTwoNumbers(num1, num2, operator) {
+//   return eval(num1 + operator + num2);
+// }
+
+// console.log(addTwoNumbers(5, 5, "+"));
+
+// addTwoNumbers(num1, num2, operator);
+
+// Övning 4
+
+function startGame() {
+  cm = Math.floor(Math.random() * 3);
+
+  input = prompt("Enter your Choices!");
+
+  pm = parseInt(input);
+
+  if (cm == 0 && pm == 1) {
+    alert("You beat Computer with Paper against Rock");
+  } else if ((cm = 0 && pm == 2)) {
+    alert("Comptuer Beat you with Rock");
+  } else if ((cm = 1 && pm == 0)) {
+    alert("Compiter Beat you with Paper");
+  } else if ((cm = 2 && pm == 2)) {
+    alert("You beat Computer with Scissor against Paper");
+  } else if ((cm = 2 && pm == 0)) {
+    alert("You beat Computer with Rock against Scissor");
+  } else if ((cm = 2 && pm == 1)) {
+    alert("Computer Beat you with Scissor");
+  } else {
+    alert("It's a tie");
+  }
 }
 
+startGame();
