@@ -39,8 +39,15 @@
 // let num2 = 5;
 // let operator = "+";
 
+// function add(num1, num2) {
+//   const sum = num1 + num2;
+//   return sum;
+// }
+
 // function addTwoNumbers(num1, num2, operator) {
-//   return eval(num1 + operator + num2);
+//   let result;
+//   if (operator == "+") result = add(num1, num2);
+//   return result;
 // }
 
 // console.log(addTwoNumbers(5, 5, "+"));
@@ -49,28 +56,28 @@
 
 // Övning 4
 
-function startGame() {
-  cm = Math.floor(Math.random() * 3);
+// function startGame() {
+//   cm = Math.floor(Math.random() * 3);
 
-  input = prompt("Enter your Choices!");
+//   input = prompt("Enter your Choices!");
 
-  pm = parseInt(input);
+//   pm = parseInt(input);
 
-  if (cm == 0 && pm == 1) {
-    alert("You beat Computer with Paper against Rock");
-  } else if ((cm = 0 && pm == 2)) {
-    alert("Comptuer Beat you with Rock");
-  } else if ((cm = 1 && pm == 0)) {
-    alert("Compiter Beat you with Paper");
-  } else if ((cm = 2 && pm == 2)) {
-    alert("You beat Computer with Scissor against Paper");
-  } else if ((cm = 2 && pm == 0)) {
-    alert("You beat Computer with Rock against Scissor");
-  } else if ((cm = 2 && pm == 1)) {
-    alert("Computer Beat you with Scissor");
-  } else {
-    alert("It's a tie");
-  }
-}
+//   if (cm == 0 && pm == 1) {
+//     alert("You beat Computer with Paper against Rock");
+//   } else if ((cm = 0 && pm == 2)) {
+//     alert("Comptuer Beat you with Rock");
+//   } else if ((cm = 1 && pm == 0)) {
+//     alert("Compiter Beat you with Paper");
+//   } else if ((cm = 2 && pm == 2)) {
+//     alert("You beat Computer with Scissor against Paper");
+//   } else if ((cm = 2 && pm == 0)) {
+//     alert("You beat Computer with Rock against Scissor");
+//   } else if ((cm = 2 && pm == 1)) {
+//     alert("Computer Beat you with Scissor");
+//   } else {
+//     alert("It's a tie");
+//   }
+// }
 
-startGame();
+// startGame();
